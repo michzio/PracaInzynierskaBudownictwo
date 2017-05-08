@@ -1,0 +1,10 @@
+Mx = importdata('Mx.txt')
+My = importdata('My.txt')
+N = importdata('N.txt')
+plot3(Mx,My,N,'b-','linewidth',1)
+title('3D Interaction Surface','FontSize',15)
+xlabel('Mx [kNm]')
+ylabel('My [kNm]')
+zlabel('N [kN]')
+% axis('equal')
+grid on

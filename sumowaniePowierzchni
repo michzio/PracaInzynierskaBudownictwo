@@ -1,0 +1,30 @@
+
+//tablica zdefiniowanych powierzchni 
+Surfaces *A[N]; 
+weight *n[N]; 
+
+F = 0;
+//1 elementow
+for(i=1; i<=N; i++) 
+{
+	F += n[i]*A[i]; 
+}
+
+//2 elementow
+for(i=2; i<=N; i++) 
+{
+       for(j=1; j<i; j++) 
+       {
+		F -= n[j]*A[i]XA[j];
+       }
+}
+
+//3 elementow
+for(i=3; i<=N; i++)
+{
+	for(j = i-2; j < i-1; j++)
+	{
+		
+	}
+}
+
